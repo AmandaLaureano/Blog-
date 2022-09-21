@@ -20,7 +20,7 @@
   background-image: url(https://images.pexels.com/photos/1252872/pexels-photo-1252872.jpeg);
   background-position: center;
   background-size: cover;
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .menu{
@@ -28,73 +28,121 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-right: 50%;
 }
 
 .menu h3{
   color: white;
 }
 
-h2{
+.form h2{
+  padding-bottom: 5px;
   color: whitesmoke;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 27px;
   font-weight: normal;
 }
 
-.item-menu a{
+.buttonLogin{
   color: white;
   text-decoration: none;
-  border: 1px solid white;
   padding: 3px 8px;
   border-radius: 5px;
+  background-color: #00000073;
+  border-style: none;
+  width: 100px;
 }
 
 .form{
   width: 100%;
   display: flex;
   max-width: 600px;
-  margin: 40px auto;
+  margin: 100px auto;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .itens-form{
   margin: 0 auto;
   max-width: 540px;
   display: flex;
-  width: 100%;
+  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
+  
 }
 
 .itens-form input[type=text]{
-  width: 48%;
+  width: 300px;
   height: 30px;
-  margin: 6px 0px;
+  margin: 3px;
   padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px black;
 }
 
 .itens-form input[type=button]{
-  width: 200px;
+  width: 150px;
   height: 30px;
-  background-color: #1a6b99;
+  background-color: #00000073;
   cursor: pointer;
   color: white;
   font-size: 18px;
-  border-radius: 20px;
-  border: 2px 2pxs black;
+  border-radius: 5px;
+  border: 2px 2pxs;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
 }
 
 @media screen and (max-width: 768px) {
   .itens-form input[type=text]{
     width: 100%;
   }
-  .conteudo-single{
+  .conteudo{
     width: 100%;
   }
 }
 
-.conteudo-single{
-  margin-top: 40px;
+.logoBlog{
+  width: 300px;
+  height: 300px;
+}
+
+.titulo_pagina{
+  padding: 40px;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-align: center;
+}
+.card-text{
+  font-size: 16px;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.amostra{
+  width: 100%;
+  height: 300px;
+}
+
+.card{
+  margin-top: 30px;
   width: 50%;
   padding: 8px 30px;
+}
+
+p{
+  color: rgb(73, 86, 97);
+  font-size: 14px;
+}
+
+.btn-cards1{
+  position: absolute;
+  width: 100px;
+  
+
 }
