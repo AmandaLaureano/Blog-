@@ -5,6 +5,7 @@
   font-family: 'Josefin Sans', sans-serif, roboto;
 }
 
+
 .center{
   max-width: 960px;
   margin: 0 auto;
@@ -37,7 +38,7 @@
 
 .form h2{
   padding-bottom: 5px;
-  color: whitesmoke;
+  color: white;
   text-transform: uppercase;
   font-size: 27px;
   font-weight: normal;
@@ -110,6 +111,9 @@
   height: 300px;
 }
 
+.conteudo{
+  background-color: lightgray;
+}
 .titulo_pagina{
   padding: 40px;
   text-transform: uppercase;
@@ -140,9 +144,103 @@ p{
   font-size: 14px;
 }
 
-.btn-cards1{
+footer{
   position: absolute;
-  width: 100px;
+  left: 0;
+  right: 0;
+  background-color: #111;
+  height: auto;
+  width: 100wh;
+  padding-top: 40px;
+  color: white;
   
-
 }
+
+.btn{
+  background-color: #000000;
+  border-style: none;
+  position: relative;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem  0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover{ 
+  color: #900;
+}
+
+.footer_bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer_bottom p{
+  font-size: 20px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  
+}
+
+.footer_bottom span{
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
