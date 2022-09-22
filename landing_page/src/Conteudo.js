@@ -1,4 +1,15 @@
-import materiaescura from './imagens/materiaescura.jpg'
+import materiaescura from './imagens/materiaescura.jpg';
+import buraconegro from './imagens/buraconegro.jpg';
+import quasar from './imagens/quasar.jpg';
+import galaxiafominha from './imagens/galaxiafominha.jpg';
+import godzilla from './imagens/godzilla.jpg';
+import TRES from './imagens/TRES.jpg';
+import orbitasedna from './imagens/orbitasedna.jpg';
+import scuti from './imagens/scuti.png';
+import grupolocal from './imagens/grupolocal.jpg';
+import aglomerado from './imagens/aglomerado.jpg';
+import superaglomerado from './imagens/superaglomerado.png';
+import universovisivel from './imagens/universovisivel.jpg';
 
 export function Conteudo(){
     return(
@@ -21,7 +32,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={buraconegro} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Buracos Negros</h3>
@@ -32,7 +43,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={quasar} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Quasar</h3>
@@ -43,7 +54,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={galaxiafominha} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Galáxia fominha</h3>
@@ -54,7 +65,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={godzilla} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Planeta Godzilla</h3>
@@ -65,7 +76,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={TRES} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Planeta Cortiça</h3>
@@ -76,7 +87,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={orbitasedna} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Órbita de Sedna</h3>
@@ -87,7 +98,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={scuti} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Gigante vermelha</h3>
@@ -98,7 +109,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={grupolocal} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Grupo local</h3>
@@ -109,7 +120,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src={} />
+                        <img className="amostra" src={aglomerado} />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Aglomerado de Virgem</h3>
@@ -120,7 +131,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={superaglomerado} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Superaglomerado de Virgem</h3>
@@ -131,7 +142,7 @@ export function Conteudo(){
 
                 <div class="card w-50">
                     <div>
-                        <img className="amostra" src="" alt="" />
+                        <img className="amostra" src={universovisivel} alt="" />
                     </div>
                     <div class="card-body">
                         <h3 class="card-title">Universo visível</h3>
